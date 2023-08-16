@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Xuan Huan</title>
+</head>
+<body>
+    <div>
+
+        <h2 class="header__lon">Danh sách sinh viên</h2>
+        <table class="thongtin" border="1px">
+            <tr>
+                <td class="c1">Họ và tên</td>
+                <td class="c2">Trường</td>
+                <td class="c3">Chức năng 1</td>
+                <td class="c4">Chức năng 2</td>
+            </tr>
+        </table>
+        <table class="list-student" border="1px">       
+        </table>
+        <button class="nutthemsinhvien">Thêm</button>
+    </div>
+    <div class="nhapthongtin">
+        <div class="tieude"><span class="noidungtieude">Thêm sinh viên</span></div>
+        <div class="khungnhapthongtin">
+            <div class="k"><input type="text" class="hoten" placeholder="Nhập họ tên vào đây"></div>
+            <div class="k"><input type="text" class="truonghoc" placeholder="Nhập trường học vào đây"></div>
+        </div>
+        <div class="khungchucnang">
+            <button class="xong">Xong</button>
+        </div>
+        <button class="nuttatthemsinhvien">X</button>
+    </div>
+    
+    <div  class="nhapthongtinsua">
+        <div class="tieude"><span class="noidungtieude">Sửa thông tin</span></div>
+        <div class="khungnhapthongtin">
+            <div class="k"><input type="text" class="hoten1" placeholder="Nhập họ tên vào đây"></div>
+            <div class="k"><input type="text" class="truonghoc1" placeholder="Nhập trường học vào đây"></div>
+        </div>
+        <div class="khungchucnang">
+            <button onclick="xong1()">Xong</button>
+        </div>
+        <button class="nuttatsuasinhvien">X</button>
+    </div>
+</body>
+<script src="main2.js"></script>
+</html>

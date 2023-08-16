@@ -1,0 +1,142 @@
+.dangnhap{
+    font-size: ;
+}
+.dangnhap__thongtin{
+    width: 50%;
+    display: flex;
+}
+.dangnhap__matkhau{
+    width: 50%;
+    display: flex;
+    margin-top: 15px;
+}
+.matkhau{
+    flex: 1;
+    margin-left: 10px;
+}
+.hoten{
+    flex: 1;
+    margin-left: 28px;
+
+}
+.huan1{
+    cursor: pointer;
+}
+.header__lon{
+    text-align: center;
+}
+.thongtin{
+    width: 100%;
+}
+.list-student{
+    width: 100%;
+}
+.b1{
+    width: 50%;
+}
+.c1{
+    text-align: center;
+    width: 50%;
+}
+.c2{
+    text-align: center;
+    width: 40%;
+}
+.c3{
+    text-align: center;
+}
+.c4{
+    text-align: center;
+}
+.nhapthongtin{
+    width: 500px;
+    background-color: rgb(122, 113, 130);
+    border-radius: 3px;
+    margin: auto;
+    display: none;
+    position: relative;
+}
+.nhapthongtinsua{
+    width: 500px;
+    background-color: rgb(122, 113, 130);
+    border-radius: 3px;
+    margin: auto;
+    display: none;
+    position: relative;
+}
+.nhapthongtin.opennhapthongtin{
+    display: block;
+}
+.nhapthongtinsua.opennhapthongtinsua{
+    display: block;
+}
+.tieude{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.noidungtieude{
+    font-size: 30px;
+    color: aliceblue;
+}
+.khungnhapthongtin{
+    padding: 30px;
+    
+    
+}
+.k{
+    display: flex;
+    height: 40px;
+    margin-top: 15px;
+}
+.hoten{
+    width: 100%;
+    margin: 0;
+}
+.truonghoc{
+    width: 100%;
+}
+.hoten1{
+    width: 100%;
+    margin: 0;
+}
+.truonghoc1{
+    width: 100%;
+}
+.khungchucnang{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding: 10px;
+}
+.xong{
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.xong1{
+    font-size: 15px;
+    
+}
+.nutthemsinhvien{
+    font-size: 15px;
+    width: 100px;
+}
+.nuttatthemsinhvien{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.nuttatsuasinhvien{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
